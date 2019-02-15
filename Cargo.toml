@@ -1,0 +1,12 @@
+[package]
+name = "rcdecl"
+version = "0.1.0"
+authors = ["Achille Heraud <achille@heraud.xyz>"]
+edition = "2018"
+
+[dependencies]
+lexer = { git = "https://github.com/aHeraud/cc", rev ="b3e3db52d68c0e8a022f02202a64aba4a81bf7b0" }
+parser = { git = "https://github.com/aHeraud/cc", rev ="b3e3db52d68c0e8a022f02202a64aba4a81bf7b0" }
+types = { git = "https://github.com/aHeraud/cc", rev ="b3e3db52d68c0e8a022f02202a64aba4a81bf7b0" }
+ast = { git = "https://github.com/aHeraud/cc", rev ="b3e3db52d68c0e8a022f02202a64aba4a81bf7b0" }
+errors = { git = "https://github.com/aHeraud/cc", rev ="b3e3db52d68c0e8a022f02202a64aba4a81bf7b0" }
