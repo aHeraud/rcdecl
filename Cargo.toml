@@ -5,8 +5,8 @@ authors = ["Achille Heraud <achille@heraud.xyz>"]
 edition = "2018"
 
 [dependencies]
-lexer = { git = "https://github.com/aHeraud/cc", rev ="b3e3db52d68c0e8a022f02202a64aba4a81bf7b0" }
-parser = { git = "https://github.com/aHeraud/cc", rev ="b3e3db52d68c0e8a022f02202a64aba4a81bf7b0" }
-types = { git = "https://github.com/aHeraud/cc", rev ="b3e3db52d68c0e8a022f02202a64aba4a81bf7b0" }
-ast = { git = "https://github.com/aHeraud/cc", rev ="b3e3db52d68c0e8a022f02202a64aba4a81bf7b0" }
-errors = { git = "https://github.com/aHeraud/cc", rev ="b3e3db52d68c0e8a022f02202a64aba4a81bf7b0" }
+lexer = { git = "https://github.com/aHeraud/cc", rev ="aa6cb8ce7eb726ab93e705eb776307c72e8bb796" }
+parser = { git = "https://github.com/aHeraud/cc", rev ="aa6cb8ce7eb726ab93e705eb776307c72e8bb796" }
+types = { git = "https://github.com/aHeraud/cc", rev ="aa6cb8ce7eb726ab93e705eb776307c72e8bb796" }
+ast = { git = "https://github.com/aHeraud/cc", rev ="aa6cb8ce7eb726ab93e705eb776307c72e8bb796" }
+errors = { git = "https://github.com/aHeraud/cc", rev ="aa6cb8ce7eb726ab93e705eb776307c72e8bb796" }
