@@ -3,10 +3,12 @@ name = "rcdecl"
 version = "0.1.0"
 authors = ["Achille Heraud <achille@heraud.xyz>"]
 edition = "2018"
+license = "MIT"
+readme = "README.md"
 
 [dependencies]
-lexer = { git = "https://github.com/aHeraud/cc", rev ="aa6cb8ce7eb726ab93e705eb776307c72e8bb796" }
-parser = { git = "https://github.com/aHeraud/cc", rev ="aa6cb8ce7eb726ab93e705eb776307c72e8bb796" }
-types = { git = "https://github.com/aHeraud/cc", rev ="aa6cb8ce7eb726ab93e705eb776307c72e8bb796" }
-ast = { git = "https://github.com/aHeraud/cc", rev ="aa6cb8ce7eb726ab93e705eb776307c72e8bb796" }
-errors = { git = "https://github.com/aHeraud/cc", rev ="aa6cb8ce7eb726ab93e705eb776307c72e8bb796" }
+lexer = { git = "https://github.com/aHeraud/cc", rev ="a15b49f1f836cb24f9fe0dd57d8772395f3d0bdd" }
+parser = { git = "https://github.com/aHeraud/cc", rev ="a15b49f1f836cb24f9fe0dd57d8772395f3d0bdd" }
+types = { git = "https://github.com/aHeraud/cc", rev ="a15b49f1f836cb24f9fe0dd57d8772395f3d0bdd" }
+ast = { git = "https://github.com/aHeraud/cc", rev ="a15b49f1f836cb24f9fe0dd57d8772395f3d0bdd" }
+errors = { git = "https://github.com/aHeraud/cc", rev ="a15b49f1f836cb24f9fe0dd57d8772395f3d0bdd" }
