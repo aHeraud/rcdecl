@@ -92,4 +92,6 @@ Nested declarators (that is, declarators that have other declarators inside of t
 
 ![](img/explanation_example.png)
 
+Note that this is actually illegal, as you can not have an array of functions, only an array of pointers to functions, but as it is syntactically legal it is still accepted.
+
 This is built on top of a c compiler I am working on, whos source can be found [here](https://github.com/aHeraud/cc/) (it's pretty ugly and doesn't do anything yet though).
